@@ -1,0 +1,217 @@
+/**
+ * Salon Srimanthini — Complete Service Catalog & Pricing
+ * Formatted with transparent published pricing in LKR
+ */
+
+export const serviceCategories = [
+  {
+    id: "bridal",
+    name: "Bridal Couture",
+    eyebrow: "Srimanthini Bridal",
+    tagline: "Your Sacred Day, Crafted into a Timeless Memory",
+    description: "Sri Lanka's gold standard in Kandyan Osari, Western couture gowns, Indian silk saree draping, and comprehensive bridal retinue styling.",
+    image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=85",
+    services: [
+      {
+        name: "Traditional Kandyan Bridal Dressing",
+        duration: "180 - 240 mins",
+        price: "LKR 45,000",
+        description: "Full regal Kandyan Osari draping, traditional 7-necklace gold jewellery suite placement, Nalalpatiya setting, and fresh jasmine styling.",
+        popular: true,
+      },
+      {
+        name: "Western White Bridal Gown & Veil Artistry",
+        duration: "150 - 180 mins",
+        price: "LKR 40,000",
+        description: "Haute couture gown dressing, cathedral veil securing, tiara architecture, sculptured updo or Hollywood waves, and luminescent makeup.",
+        popular: true,
+      },
+      {
+        name: "Indian Silk Saree & Royal Lehenga Draping",
+        duration: "150 mins",
+        price: "LKR 38,000",
+        description: "Precision pleat draping for Kanchipuram silk sarees or heavy double-dupatta lehengas with antique jewellery styling.",
+      },
+      {
+        name: "Homecoming & Reception Second-Look Couture",
+        duration: "90 - 120 mins",
+        price: "LKR 28,000",
+        description: "Evening glam transformation, glamorous hair restructure, statement jewellery setting, and high-radiance strobe makeup.",
+      },
+      {
+        name: "Bridal Retinue / Bridesmaids Dressing (Per Person)",
+        duration: "60 mins",
+        price: "LKR 12,500",
+        description: "Harmonious saree or gown dressing, coordinated hair styling, soft makeup, and floral hairpins.",
+      },
+      {
+        name: "Complete Pre-Bridal Radiance Ritual (3-Week Intensive)",
+        duration: "3 Sessions",
+        price: "LKR 35,000",
+        description: "Comprehensive bridal radiance exfoliation, 24K gold cellular facial, deep hair spa, and luxury manicure & pedicure.",
+      },
+    ],
+  },
+  {
+    id: "hair",
+    name: "Hair & Scalp",
+    eyebrow: "Srimanthini Hair",
+    tagline: "Couture Cuts, Dimensional Colour & Botanical Therapy",
+    description: "Precision scissor cuts, bespoke Balayage, Brazilian Keratin, Hair Botox, and restorative scalp therapy.",
+    image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1200&q=85",
+    services: [
+      {
+        name: "Signature Precision Cut & Blow-Dry",
+        duration: "45 mins",
+        price: "LKR 4,500",
+        description: "Face-framing haircut customized to bone structure, followed by signature volume blowout styling.",
+        popular: true,
+      },
+      {
+        name: "Couture Balayage / Dimensional Highlights",
+        duration: "180 mins",
+        price: "LKR 22,000+",
+        description: "Hand-painted seamless sun-kissed dimension with Olaplex bond repair treatment and gloss toner.",
+        popular: true,
+      },
+      {
+        name: "Pure Brazilian Keratin Smoothing Therapy",
+        duration: "150 - 200 mins",
+        price: "LKR 26,000+",
+        description: "Zero-frizz, silky smooth hair transformation lasting up to 5 months with mirror-like shine.",
+      },
+      {
+        name: "Advanced Hair Botox & Deep Rejuvenation",
+        duration: "120 mins",
+        price: "LKR 18,500+",
+        description: "Collagen, hyaluronic acid, and keratin micro-infusion that fills damaged hair fibers from within.",
+      },
+      {
+        name: "Royal Botanical Scalp Rejuvenation Spa",
+        duration: "60 mins",
+        price: "LKR 6,500",
+        description: "Aromatherapy steam, micro-circulation pressure point head relaxation, and customized nourishing hair mask.",
+      },
+      {
+        name: "Organic Roots Touch-up & Ammonia-Free Gloss",
+        duration: "75 mins",
+        price: "LKR 7,500",
+        description: "100% grey coverage with organic botanical extracts and deep conditioning sealant.",
+      },
+    ],
+  },
+  {
+    id: "skin",
+    name: "Skin & Aesthetics",
+    eyebrow: "Srimanthini Skin",
+    tagline: "Clinical Elegance & Cellular Radiance",
+    description: "Micro-exfoliation, 24K colloidal gold therapy, intense cellular hydration, and acne clarifying rituals.",
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=85",
+    services: [
+      {
+        name: "24K Gold Luxury Illuminating Facial",
+        duration: "90 mins",
+        price: "LKR 9,500",
+        description: "Pure 24K colloidal gold leaf infusion with ultrasound lymphatic drainage and collagen peptide firming mask.",
+        popular: true,
+      },
+      {
+        name: "Hydro-Dermabrasion & Deep Pore Clarifying",
+        duration: "75 mins",
+        price: "LKR 7,500",
+        description: "Non-invasive suction extraction, vortex salicylic infusion, and cold hammer pore tightening.",
+        popular: true,
+      },
+      {
+        name: "Brightening Vitamin C Cellular Infusion",
+        duration: "60 mins",
+        price: "LKR 6,800",
+        description: "High-potency antioxidant treatment targeting hyperpigmentation, sun damage, and uneven skin tone.",
+      },
+      {
+        name: "Ayurvedic Herbal Clarifying Clean-Up",
+        duration: "45 mins",
+        price: "LKR 4,200",
+        description: "Traditional sandalwood, turmeric, and neem steam treatment to clear blemishes and restore natural balance.",
+      },
+      {
+        name: "Intensive Eye Contour Lift & De-Puffing",
+        duration: "30 mins",
+        price: "LKR 3,500",
+        description: "Targeted caffeine and peptide eye patch therapy with cold jade stone contour sculpting.",
+      },
+    ],
+  },
+  {
+    id: "nails",
+    name: "Nails & Lash Lounge",
+    eyebrow: "Srimanthini Nails",
+    tagline: "Flawless Tips, Spa Pedicures & Lash Envy",
+    description: "Russian dry manicures, long-lasting gel extensions, nail art couture, and organic spa pedicures.",
+    image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=1200&q=85",
+    services: [
+      {
+        name: "Signature Rose Petal Spa Pedicure",
+        duration: "60 mins",
+        price: "LKR 4,800",
+        description: "Warm mineral milk soak with fresh rose petals, gentle sea-salt exfoliation, callus softening, and gentle foot care.",
+        popular: true,
+      },
+      {
+        name: "Luxury Russian Gel Manicure",
+        duration: "60 mins",
+        price: "LKR 5,200",
+        description: "Painless electronic cuticle alignment, strengthening builder gel foundation, and chip-free gloss finish.",
+      },
+      {
+        name: "Bespoke Bridal Acrylic / Gel Extensions",
+        duration: "90 mins",
+        price: "LKR 8,500",
+        description: "Handcrafted french ombre or gold-foil encapsulated bridal tips with Swarovski crystal accents.",
+        popular: true,
+      },
+      {
+        name: "Classic Express Manicure & Polish",
+        duration: "35 mins",
+        price: "LKR 2,800",
+        description: "Nail shaping, cuticle neatening, and high-shine organic lacquer.",
+      },
+      {
+        name: "Keratin Lash Lift & Tint Artistry",
+        duration: "45 mins",
+        price: "LKR 6,000",
+        description: "Curling and darkening natural lashes from root to tip with nourishing keratin protein for 6-8 weeks of volume.",
+      },
+    ],
+  },
+  {
+    id: "grooming",
+    name: "Men's Executive Suite",
+    eyebrow: "Srimanthini Men",
+    tagline: "Precision Grooming, Beard Architecture & Facial Detoxing",
+    description: "Dedicated executive grooming for grooms, professionals, and wedding retinues.",
+    image: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85",
+    services: [
+      {
+        name: "Executive Haircut, Beard Trim & Hot Towel Shave",
+        duration: "60 mins",
+        price: "LKR 4,800",
+        description: "Precision razor fade or scissor cut, sculptural beard outline, eucalyptus hot towel, and aftershave balm.",
+        popular: true,
+      },
+      {
+        name: "Groom's Wedding Day Styling Package",
+        duration: "90 mins",
+        price: "LKR 10,500",
+        description: "Charcoal detox facial, hair styling, beard sculpt, and matte camera-ready finish.",
+        popular: true,
+      },
+      {
+        name: "Men's Charcoal Deep Cleansing Facial",
+        duration: "45 mins",
+        price: "LKR 4,500",
+        description: "Eliminates ingrown hairs, regulates excess sebum, and unclogs pores exposed to urban pollution.",
+      },
+    ],
+  },
+]

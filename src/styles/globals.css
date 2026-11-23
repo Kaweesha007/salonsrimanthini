@@ -1,0 +1,114 @@
+@import './variables.css';
+@import './typography.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Reset & Smooth Rendering */
+html {
+  scroll-behavior: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-canvas);
+  color: var(--noir-900);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--color-canvas);
+  color: var(--noir-900);
+  font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif;
+  line-height: 1.65;
+}
+
+/* Lenis Smooth Scroll Resets */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Custom Design System Utilities */
+@layer utilities {
+  /* Frosted Glass Paneling */
+  .glass-panel {
+    background: var(--color-surface-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .glass-panel-dark {
+    background: var(--color-surface-glass-dark);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--border-light);
+  }
+
+  /* Hairline Delicate Dividers */
+  .hairline-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent 0%, var(--border-subtle) 20%, var(--border-subtle) 80%, transparent 100%);
+  }
+
+  .hairline-border {
+    border: 1px solid var(--border-hairline);
+  }
+
+  /* Editorial Image Framing */
+  .editorial-frame {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--color-canvas-subtle);
+    border-radius: 18px;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .editorial-frame:hover {
+    box-shadow: var(--shadow-luxury);
+  }
+
+  .editorial-frame img {
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .editorial-frame:hover img {
+    transform: scale(1.035);
+  }
+}
+
+/* Custom Scrollbar - Warm Gold & Cream */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold-300);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-500);
+}

@@ -1,0 +1,92 @@
+/**
+ * Salon Srimanthini — Design Tokens
+ * Luxury Bridal Dressing & Beauty Sanctuary Design System
+ */
+
+:root {
+  /* --------------------------------------------------------------------------
+   * 1. BRAND ACCENT METALS (Champagne, Antique Gold & Luminous Warmth)
+   * ----------------------------------------------------------------------- */
+  --gold-50: #faf7f0;
+  --gold-100: #f4edd9;
+  --gold-200: #e9dab5;
+  --gold-300: #dbc389;
+  --gold-400: #cca95e;
+  --gold-500: #b8913d;
+  --gold-600: #9e7630;
+  --gold-700: #7e5a28;
+  --gold-800: #684825;
+  --gold-900: #583c22;
+  --gold-DEFAULT: #b8913d;
+
+  --color-gold-metallic: linear-gradient(135deg, #d8bc7e 0%, #b8913d 50%, #906c27 100%);
+  --color-gold-shimmer: linear-gradient(90deg, #b8913d 0%, #faecd0 50%, #b8913d 100%);
+  --color-champagne: #f7ede0;
+  --color-champagne-light: #fbf6ef;
+  --color-antique-gold: #c5a880;
+  --color-bronze-warm: #a67c52;
+
+  /* --------------------------------------------------------------------------
+   * 2. EDITORIAL NOIR & OBSIDIAN (Deep, Rich Typography Contrast)
+   * ----------------------------------------------------------------------- */
+  --noir-950: #0d0c0e;
+  --noir-900: #151417;
+  --noir-800: #222026;
+  --noir-700: #38343f;
+  --noir-600: #534e5c;
+  --noir-500: #716b7a;
+  --noir-400: #958f9e;
+  --noir-300: #bbb6c2;
+  --noir-200: #dfdbe3;
+  --noir-100: #f0eef2;
+  --noir-50: #f8f7f9;
+  --noir-DEFAULT: #151417;
+
+  /* --------------------------------------------------------------------------
+   * 3. RAW SILK & ALABASTER CANVASES (Warm, Luminous Backgrounds)
+   * ----------------------------------------------------------------------- */
+  --color-canvas: #faf8f5;          /* Luminous warm silk base */
+  --color-canvas-subtle: #f4efe9;   /* Muted alabaster section alt */
+  --color-canvas-warm: #ede6dc;     /* Warm parchment */
+  --color-surface-pure: #ffffff;    /* Crisp focal card */
+  --color-surface-glass: rgba(255, 255, 255, 0.76);
+  --color-surface-glass-dark: rgba(21, 20, 23, 0.82);
+
+  /* --------------------------------------------------------------------------
+   * 4. BRIDAL BLUSH & WARM TERRACOTTA (Bridal Saree & Floral Harmony)
+   * ----------------------------------------------------------------------- */
+  --rose-50: #fcf7f6;
+  --rose-100: #faeee9;
+  --rose-200: #f3ded5;
+  --rose-300: #e8c6b9;
+  --rose-400: #d9a595;
+  --rose-500: #c47d6c;
+  --rose-600: #a96253;
+  --rose-700: #8c4e42;
+  --rose-DEFAULT: #c47d6c;
+
+  /* --------------------------------------------------------------------------
+   * 5. HAIRLINE BORDERS & STRUCTURAL RIMS
+   * ----------------------------------------------------------------------- */
+  --border-hairline: rgba(34, 32, 38, 0.08);
+  --border-subtle: rgba(184, 145, 61, 0.18);
+  --border-gold-accent: rgba(184, 145, 61, 0.38);
+  --border-light: rgba(255, 255, 255, 0.2);
+
+  /* --------------------------------------------------------------------------
+   * 6. SHADOW ARCHITECTURE (Ethereal Whisper Shadows)
+   * ----------------------------------------------------------------------- */
+  --shadow-subtle: 0 2px 8px -1px rgba(21, 20, 23, 0.04);
+  --shadow-elevated: 0 14px 32px -6px rgba(21, 20, 23, 0.05), 0 4px 12px -2px rgba(21, 20, 23, 0.02);
+  --shadow-luxury: 0 24px 48px -12px rgba(184, 145, 61, 0.14), 0 8px 20px -4px rgba(21, 20, 23, 0.03);
+  --shadow-glow: 0 0 32px rgba(184, 145, 61, 0.22);
+  --shadow-editorial: 0 30px 60px -15px rgba(21, 20, 23, 0.08);
+
+  /* --------------------------------------------------------------------------
+   * 7. TIMING & EASING CURVES
+   * ----------------------------------------------------------------------- */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.25, 1, 0.5, 1);
+  --duration-hover: 300ms;
+  --duration-panel: 500ms;
+}

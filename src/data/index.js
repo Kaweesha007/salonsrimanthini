@@ -1,0 +1,6 @@
+export * from './salonData'
+export * from './bridalData'
+export * from './servicesData'
+export * from './offersData'
+export * from './galleryData'
+export * from './teamData'
