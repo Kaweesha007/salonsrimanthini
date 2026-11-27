@@ -34,11 +34,11 @@ export function MobileBottomBar({ onOpenBooking }) {
       </button>
 
       <a
-        href="#offers"
+        href="#packages"
         className="flex flex-col items-center gap-1 text-[10px] text-noir-700 hover:text-gold-700 font-medium tracking-wide py-1 px-2"
       >
         <Tag className="w-4 h-4 text-gold-600" />
-        <span>Offers</span>
+        <span>Packages</span>
       </a>
 
       <button

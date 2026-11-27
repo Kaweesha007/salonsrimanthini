@@ -23,13 +23,19 @@ export function BookingModal({ isOpen, onClose, initialService = "Bridal Couture
   }, [initialService])
 
   const serviceOptions = [
+    "Platinum Package (145,000 LKR)",
+    "Gold Package (115,000 LKR)",
+    "Silver Package (105,000 LKR)",
+    "Bronze Package (85,000 LKR)",
+    "Homecoming Package (45,000 - 60,000 LKR)",
+    "Going Away Package (30,000 LKR)",
+    "Engagement Package (30,000 - 38,000 LKR)",
     "Bridal Couture (Kandyan / Western / Indian)",
     "Haircut, Styling & Balayage",
     "Brazilian Keratin / Hair Botox",
     "24K Gold Illuminating Facial",
     "Spa Pedicure & Russian Gel Manicure",
     "Men's Executive Grooming",
-    "The Royal Bridal All-Inclusive Suite (Offer)",
   ]
 
   const handleChange = (e) => {

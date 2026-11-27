@@ -31,6 +31,8 @@ export {
   ChevronRight,
   Filter,
   Send,
+  Gift,
+  Info,
 } from 'lucide-react'
 
 export { SalonLogoIcon } from './SalonLogoIcon'

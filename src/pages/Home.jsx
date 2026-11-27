@@ -4,7 +4,7 @@ import { BrandIntro } from '@/sections/BrandIntro'
 import { BeautyMoodGrid } from '@/sections/BeautyMoodGrid'
 import { ServiceMenu } from '@/sections/ServiceMenu'
 import { BridalCoutureShowcase } from '@/sections/BridalCoutureShowcase'
-import { OffersSection } from '@/sections/OffersSection'
+import { PackagesSection } from '@/sections/PackagesSection'
 import { AboutTeam } from '@/sections/AboutTeam'
 import { GallerySection } from '@/sections/GallerySection'
 import { Testimonials } from '@/sections/Testimonials'
@@ -49,8 +49,8 @@ export function Home({ onOpenBooking }) {
       {/* 5. Bridal Dresses & Couture Showcase (Client's Core Specialty) */}
       <BridalCoutureShowcase onOpenBooking={handleQuickBook} />
 
-      {/* 6. Curated Packages & Special Offers */}
-      <OffersSection onClaimOffer={handleQuickBook} />
+      {/* 6. Curated Bridal & Ceremony Packages */}
+      <PackagesSection onClaimOffer={handleQuickBook} />
 
       {/* 7. About Us, Master Stylists & Craft Standards */}
       <AboutTeam />

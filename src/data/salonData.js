@@ -30,7 +30,7 @@ export const salonConfig = {
 export const navigationLinks = [
   { name: "Home", href: "#home" },
   { name: "Services", href: "#services" },
-  { name: "Offers", href: "#offers" },
+  { name: "Packages", href: "#packages" },
   { name: "Gallery", href: "#gallery" },
   { name: "About Us", href: "#about" },
   { name: "Contact", href: "#contact" },
